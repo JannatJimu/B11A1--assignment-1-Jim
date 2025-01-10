@@ -43,6 +43,8 @@
     justify-content: space-between;
     /* align-items: center; */
     background-color:#C6E4D6;
+    width: 1460px;
+    height: 500px;
     margin-left:160px ;
     margin-right: 140px; 
     margin-top:10px;
@@ -71,8 +73,10 @@
     color:#FFFFFF;
     background-color:#006A50 ;
     border-radius: 8px;
-    padding:17px 34px;
+    margin-bottom: 117px;
+    padding:17px 34px ;
     border: none;
+
 }
 .header-img{
     width: 329px;
@@ -87,7 +91,7 @@
     font-weight: 700px;
     color: #0E0E0E;
     margin-top: 80px;
-    margin-bottom: 32px;
+    margin-bottom: 30px;
     margin-left: 160px;
 }
 .pillars-box{
@@ -111,11 +115,13 @@
     font-weight: 700px;
     color: #2b2b2b;
     margin-bottom: 12px;
+    
 }
 .pillar-box-description{
     font-size: 16px;
     color: #2c2b2b;
     margin-bottom: 24px;
+    
 }
 /* vision styles */
 .vision-description{
@@ -124,13 +130,12 @@
     margin-bottom: 24px;
     margin-left: 160px;
     margin-right: 160px;
-    margin-bottom: 50px;
 }
 .vision-box{
     display: flex;
     margin-left:125px;
     margin-right:125px;
-    margin-top: 80px;
+    margin-top: 60px;
     justify-content: space-evenly;
     gap:24px;
 }
@@ -200,3 +205,54 @@
     font-weight:600 ;
     color: #000;
  }
+ /* News box style */
+  .news-box-titles{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    
+ }
+ .time-field{
+    display: flex;
+    gap:12px;
+    
+   
+ }
+ .news{
+    margin-bottom: 30px;
+ }
+ .news-box{
+    
+    height: 300px;
+    display: flex;
+    gap: 32px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 24px; 
+    background-color: #FFFFFF;
+    padding:48px 48px;
+    border-radius:24px;
+    justify-content:space-evenly;
+    
+}
+ .news-img{
+  width: 400px;
+  height: 300px;
+  border-radius:24px ;
+  vertical-align:middle;
+ }
+ .news-box-titles{
+    margin-top:0px ;
+ }
+ .news-description{
+    margin-top: 0px;
+    padding-bottom: 10px;
+ }
+ .read-more{
+    color: #f4eded;
+    background-color: #006A50;
+    padding: 10px 20px;
+    border: none;
+    text-decoration:none ;
+    border-radius: 8px;
+}
