@@ -1,0 +1,202 @@
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Heading navbar styles */
+.header {
+    background-color: #F1F1F3;
+     
+}
+
+.heading-box {
+    display: flex;
+    gap: 1218px;
+    margin: 31px 0px 31px 160px;
+    background-color: #F1F1F3;
+}
+
+.heading-title {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+/* sign in button styles */
+.signin-button {
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px solid #006A50;
+    color: #006A50;
+    /* padding: 18px 35px; */
+    border-radius: 5px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+/* header container styles */
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color:#C6E4D6;
+    margin-left:160px ;
+    margin-right: 140px; 
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    padding: 30px 60px 60px;
+    gap:64px;
+}
+.header-title{
+    font-size: 24px;
+    font-weight:500px;
+    color: #484848;
+    
+}
+.header-details{
+    font-size: 56px;
+    font-weight:700px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    
+}
+/* header button style */
+.header-button{
+    font-size: 18px;
+    font-weight:600px;
+    color:#FFFFFF;
+    background-color:#006A50 ;
+    border-radius: 8px;
+    padding:17px 34px;
+    border: none;
+}
+.header-img{
+    width: 329px;
+    height: 313px; 
+    margin-right: 160px;
+    margin-bottom: 80px;
+     margin-left: 64px;
+}
+/* pillar heading */
+.pillar-heading{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #0E0E0E;
+    margin-top: 80px;
+    margin-bottom: 32px;
+    margin-left: 160px;
+}
+.pillars-box{
+    display: flex;
+    margin-left:140px;
+    margin-right:140px;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+    gap:32px;
+}
+.pillar-box{
+    width: 305px;
+    height: auto;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    padding:24px;
+    border: 1px solid rgb(207, 206, 206);
+}
+.pillar-box-heading{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #2b2b2b;
+    margin-bottom: 12px;
+}
+.pillar-box-description{
+    font-size: 16px;
+    color: #2c2b2b;
+    margin-bottom: 24px;
+}
+/* vision styles */
+.vision-description{
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-bottom: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+}
+.vision-box{
+    display: flex;
+    margin-left:125px;
+    margin-right:125px;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    gap:24px;
+}
+.vision-box1{
+    width:410px;
+    height: auto;
+    border-radius: 16px;
+    background-color: #d7e5f9;
+    padding:32px;
+}
+.vision-box2{
+    width:410px;
+    height: auto;
+    border-radius: 16px;
+    background-color: #c0cbda;
+    padding:32px;
+    
+}
+.vision-box3{
+    width:410px;
+    height: auto;
+    border-radius: 16px;
+    background-color:#e9ddc0;
+    padding:32px;
+}
+.learn-more-1{
+    color: #f4eded;
+    background-color:#5490F5;
+    padding: 10px 20px;
+    border: none;
+    text-decoration:none ;
+}
+.learn-more-2{
+    color: #f4eded;
+    background-color: #09A15C;
+    padding: 10px 20px;
+    border: none;
+    text-decoration:none ;
+}
+.learn-more-3{ 
+    color: #f4eded;
+    background-color:#c7a147;
+    padding: 10px 20px;
+    border: none;
+    margin-top:40px;
+    text-decoration:none ;
+ }
+ /* Dr-yunus-description */
+ .Dr-yunus-description{
+    background-color: #FFFFFF;
+    font-size: 16px;
+    color: #4c4c4c;
+    margin-top: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 50px;
+    padding:48px 24px 60px;
+    border-radius: 16px;
+    border: 1px solid rgb(207, 206, 206);
+    background-image: url('../images/quote-bg.png ');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position: 2% 20% ;
+ }
+ .Dr-yunus{
+    font-size: 20px;
+    font-weight:600 ;
+    color: #000;
+ }
