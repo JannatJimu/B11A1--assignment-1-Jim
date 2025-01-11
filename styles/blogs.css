@@ -9,6 +9,8 @@
 /* Heading navbar styles */
 .header {
     background-color: #F1F1F3;
+    max-width: 100%;
+    
      
 }
 
@@ -266,13 +268,15 @@
     margin-top: 80px;
     font-size: 40px;
     font-weight: 700;
+    
 }
 .donate-description{
-    margin-top: 24px;
+    margin-top:14px;
     font-size: 16px;
     color: #4c4c4c;
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom:12px;
    
 }
 /* donate amount */
@@ -316,7 +320,7 @@ nav li:hover {
 }
 body input[type="text"]{
     width: 67%;
-   background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border: none;
     padding: 30px;
     margin-top: 24px;
@@ -333,5 +337,29 @@ body input[type="text"]{
   color: #F1F1F3;
   border: none;
   margin-left: 885px;
+ 
+}
+/* footer section */
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+.footer-button{
+    width: 61%;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 30px;
+    margin-top: 24px;
+    margin-left: 300px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+.footer-btn{
+  background-color: #004d39;
+  padding:29px 30px;
+  margin-right: 100px;
+  border-radius: 8px;
+  color: #F1F1F3;
+  border: none;
  
 }
