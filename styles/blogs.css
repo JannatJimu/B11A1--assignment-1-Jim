@@ -18,7 +18,7 @@
 .heading-box {
     display: flex;
     /* gap: 1218px; */
-    margin: 31px auto;
+    margin: 16px auto;
     background-color: #F1F1F3;
     justify-content: space-between;
     padding: 0px 160px;
@@ -54,7 +54,7 @@
     /* height: 500px; */
     margin-left: 160px;
     margin-right: 140px;
-    margin-top: 20px;
+    margin-top:10px;
     margin-bottom: 20px;
     border-radius: 24px;
     padding: 50px;
@@ -65,7 +65,7 @@
 .header-title {
     font-size: 24px;
     font-weight: 500px;
-    color: #484848;
+    color: #686666;
 
 }
 
@@ -389,10 +389,11 @@ body input[type="text"] {
     font-size: 16px;
 }
 .donate-btn {
+    font-size: 16px;
     text-align: center;
     background-color: #004d39;
     padding: 17px 25px;
-    width: 8%;
+    width: 10%;
     border-radius: 8px;
     color: #F1F1F3;
     border: none;
