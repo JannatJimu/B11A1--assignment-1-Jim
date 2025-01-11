@@ -281,27 +281,28 @@
    
 }
 /* donate amount */
-body nav{
+body nav ul >li{
     gap: 24px;
+  
 }
 nav > ul{
+    width: 100%;
     display: flex;
-    
     margin-left: 160px;
     margin-right: 160px;
     list-style: none;
     margin-top: 32px;
 }
 nav ul li{
-    width:160px;
+    
     height: 60px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: #FFFFFF;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border-radius: 16px;
     opacity: 100%;
-    padding: 40px 40px;
+    padding: 30px 40px;
     border: 1px solid rgb(207, 206, 206);
 
     
@@ -329,6 +330,8 @@ body input[type="text"]{
     margin-right: 300px;
     margin-bottom: 24px;
     text-align: center;
+    font-size:16px;
+    
 }
 .donate-btn{
   text-align: center;
@@ -347,6 +350,7 @@ footer{
     border-radius: 24px;
     margin-left: 170px;
     margin-right: 170px;
+    margin-top:40px ;
 }
 .footer-container{
     display: flex;
@@ -358,17 +362,19 @@ footer{
     border: none;
     padding: 30px;
     margin-top: 24px;
-    margin-left: 300px;
+    margin-left: 260px;
     border-radius: 8px;
     margin-bottom: 24px;
+    font-size:16px;
 }
 .footer-btn{
   background-color: #004d39;
   padding:29px 30px;
-  margin-right: 100px;
+  margin-right:80px;
   border-radius: 8px;
   color: #F1F1F3;
   border: none;
+  font-size:16px;
  
 }
 .spam{
